@@ -42,10 +42,10 @@ def syntax_error_bug():
 if __name__ == "__main__":
     try:
         # Uncomment one at a time to test different bugs
-        infinite_loop_bug()
+        # infinite_loop_bug()
         # memory_leak_bug()
         # null_pointer_bug()
-        index_error_bug()
-        syntax_error_bug()
+        # index_error_bug()
+        # syntax_error_bug()
     except Exception as e:
         print(f"Bug caught: {e}")
