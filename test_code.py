@@ -45,7 +45,7 @@ if __name__ == "__main__":
         # infinite_loop_bug()
         # memory_leak_bug()
         # null_pointer_bug()
-        # index_error_bug()
+        index_error_bug() 
         # syntax_error_bug()
     except Exception as e:
         print(f"Bug caught: {e}")

@@ -26,11 +26,11 @@ class BugMonster:
     def __init__(self):
         self.last_analyzed = ""
         self.bug_types = {
-        'infinite_loop': "A digital snake bug eating its tail, its body made of repeating code fragments",
-        'memory_leak': "A monstrous data structure that won't die, overflowing with unused variables. Memory addresses leak from its form like toxic waste. RAM meters show critical levels. Dark digital horror.",
+        'infinite_loop': "A digital snake bug wrapped around itself with its tail in its mouth. its body made of repeating code fragments",
+        'memory_leak': "A monstrous data structure that won't die, overflowing. Memory addresses leak from its form like toxic waste. RAM meters show critical levels. Dark digital horror.",
         'null_pointer': "A corrupted object monster reaching for data that doesn't exist. Its body glitches between solid and void, with NULL errors floating through its transparent form. Digital horror.",
         'index_error': "A beast made of broken array brackets, desperately reaching beyond its bounds. Its limbs glitch out at invalid indices [i+1]. Shows array bounds and error messages. Horror style.",
-        'syntax_error': "A creature formed from mangled code brackets and missing semicolons. Its body breaks apart at syntax errors, revealing corrupt code within. Error messages pulse through its form."
+        'syntax_error': "A human monster creature with missing and rearranged body parts."
     }
 
     def extract_image_url(self, result):
